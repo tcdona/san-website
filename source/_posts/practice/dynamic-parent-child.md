@@ -45,7 +45,7 @@ const Parent = san.defineComponent({
             });
 
             childIns.attach(parentEl);
-            this.childs.push(childIns);
+            // -> this.childs.push(childIns);
 
         });
     },
